@@ -1,0 +1,31 @@
+body {
+  background-color: #000000;
+}
+
+.board {
+  display: flex;
+  padding: 0;
+  margin: auto;
+  width: 624.7px;
+  height: 624.7px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: antiquewhite;
+}
+
+.item {
+  border-style: ridge;
+  width: 24.3%;
+  height: 24.3%;
+}
+
+.goblin {
+  background: url('../img/goblin.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.cursored {
+  cursor: url('../img/tool7_122842.png'), pointer;
+}
