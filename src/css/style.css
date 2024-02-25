@@ -6,8 +6,8 @@ body {
   display: flex;
   padding: 0;
   margin: auto;
-  width: 624.7px;
-  height: 624.7px;
+  width: 40em;
+  height: 40em;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
@@ -16,8 +16,8 @@ body {
 
 .item {
   border-style: ridge;
-  width: 24.3%;
-  height: 24.3%;
+  width: 9.7em;
+  height: 9.7em;
 }
 
 .goblin {
